@@ -1,0 +1,1 @@
+require("../utils"),require("npmlog"),module.exports=function(n,r,e){return function(r,t){var u=function(){},i=function(){},o=new Promise((function(n,r){u=n,i=r}));t||(t=function(n,r){if(n)return i(n);u(r)});try{var{getInfo:f}=require("../lib/getInfoNew");f(r,e.jar,e,n).then((n=>t(null,n)))}catch(n){return t(null,n)}return o}};
